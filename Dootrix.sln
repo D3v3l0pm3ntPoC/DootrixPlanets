@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dootrix.Planets.Api", "Dootrix\Dootrix.Planets.Api.csproj", "{5045CA88-6984-42DB-91B2-AB955E9E3079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dootrix.Planets.Api.Tests", "Dootrix.Tests\Dootrix.Planets.Api.Tests.csproj", "{9227F151-0076-44F4-95DA-E33A321834D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dootrix.Planets.DataAccess", "Dootrix.DataAccess\Dootrix.Planets.DataAccess.csproj", "{9F35FB7A-B688-41B5-9C97-E9176915AEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dootrix.Planets.UI", "Dootrix.UI\Dootrix.Planets.UI.csproj", "{0B6A0F31-0225-49DC-945E-D5938A31EFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5045CA88-6984-42DB-91B2-AB955E9E3079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5045CA88-6984-42DB-91B2-AB955E9E3079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5045CA88-6984-42DB-91B2-AB955E9E3079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5045CA88-6984-42DB-91B2-AB955E9E3079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9227F151-0076-44F4-95DA-E33A321834D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9227F151-0076-44F4-95DA-E33A321834D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9227F151-0076-44F4-95DA-E33A321834D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9227F151-0076-44F4-95DA-E33A321834D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F35FB7A-B688-41B5-9C97-E9176915AEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F35FB7A-B688-41B5-9C97-E9176915AEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F35FB7A-B688-41B5-9C97-E9176915AEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F35FB7A-B688-41B5-9C97-E9176915AEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6A0F31-0225-49DC-945E-D5938A31EFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6A0F31-0225-49DC-945E-D5938A31EFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6A0F31-0225-49DC-945E-D5938A31EFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6A0F31-0225-49DC-945E-D5938A31EFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
