@@ -47,6 +47,7 @@ namespace Dootrix.Planets.DataAccess.DataProviders
                 throw new ArgumentNullException($"Planet { nameof(name) } is required and cannot be null.");
             }
 
+            filter.Name = name;
             FilterDefinition<Planet> filterDefinition = filter.ToFilterDefinition();
             IAsyncCursor<Planet> searchResult = await planetCollection.FindAsync(filterDefinition);
 
